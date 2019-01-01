@@ -1,0 +1,229 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	background:black;
+	height: 2000px;
+}
+.banner{
+	font-size: 90px;
+	margin:0px;
+	position: absolute; 
+	color: silver; 
+	margin-left:400px; 
+	font-family: Brush Script MT;
+	animation-name: banner;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+@keyframes banner{
+	0%{
+		color:red;
+	}
+	20%{
+		color:yellow;
+	}
+	40%{
+		color:lightblue;
+	}
+	60%{
+		color:gold;
+	}
+	80%{
+		color:#00ff7f;
+	}
+	100%{
+		color:silver;
+	}
+}
+.menu{
+	height: 100px;
+	width: 100%;
+	background: black;
+	color: orange;
+	position: fixed;
+	z-index: 999999;
+}
+ul{
+	list-style-type: none;
+	float: right;
+}
+ul>li{
+	display: inline-block;
+	height: 100%;
+	width: 120px;
+	line-height: 100px;
+	text-align: center;
+	font-weight: bold ;
+	font-style: italic;
+	color: #d9d9d9;
+}
+.active{
+	background: #d9d9d9;
+	color: black;
+}
+ul>li:hover{
+	background: #00ff7f;
+	color: black;
+	cursor: pointer;
+}
+.box{
+	height: 630px;
+	width:100%;
+	background: black;
+	color: #00ff7f;
+}
+#box1{
+	background: white;
+	height: 630px;
+}
+#box2>h1{
+	font-size: 7.5rem;
+	padding-top: 65px;
+}
+#box3>h1{
+	font-size: 40px;
+	padding-top: 80px;
+}
+#box4{
+	padding-top: 80px;
+}
+#box3{
+	height: 563px;
+}
+#img1{
+       height: 255px;
+       width: 215px;
+       float: left;
+       display: inline;
+       margin-right: 20px;
+}
+.boxx1{
+    padding-top: 100px;
+    width: 100%;	
+}
+.btn{
+	cursor: pointer;
+	margin:405px 600px; 
+	z-index: 999999;
+	position: absolute;
+}
+.slider{
+	height: 483px;
+	width: 100%;
+	margin: -8px auto;
+	position: relative;
+}
+.images{
+	height: 100%;
+	width:100%;
+	overflow: hidden;
+	margin-left: 200px;
+}
+.img{
+	height: 630px;
+	width: 100%;
+}
+.next{
+	position: absolute;
+	z-index: 9999999;
+	padding: 20px;
+	background: black;
+	color: orange;
+	right: 0px;
+	top: 270px;
+	cursor: pointer;
+}
+.prev{
+	position: absolute;
+	z-index: 9999999;
+	padding: 20px;
+	background: black;
+	color: orange;
+	left: 0px;
+	top: 270px;
+	cursor: pointer;
+}
+.carousel{
+	padding-top:100px; 
+}
+.img2{
+			height: 150px;
+			width: 150px;
+			margin:6px;
+			filter: blur(5px);
+			transition: filter 1s;
+			cursor: pointer;
+		}
+		.img2:hover{
+			filter: blur(0px);
+		}
+		.main{
+			height: 600px;
+			width: 100%;
+			background: rgba(0,0,0,0.5);
+			position: absolute;
+			z-index: 999999;
+			display: none;
+			margin-top: 0px;
+		}
+		.main1{
+			height: 580px;
+			width: 100%;
+			background: rgba(0,0,0,0.5);
+			position: absolute;
+			z-index: 999999; 
+		}
+		.image{
+			height: 402px;
+			width: 400px;
+			background: pink;
+			position: absolute;
+			z-index: 999999;
+			margin:100px auto;
+			left: 0px;
+			right: 0px; 
+			display: none;
+		}
+		.mainimage{
+			height: 100%;
+			width: 100%;
+		}
+		.exit{
+			height: 50px;
+			width: 50px;
+			margin-left: 1290px;
+			cursor: pointer;
+		}
+
+ #username{
+   	margin: 60px 0px 0px 15px;	
+   	width: 40%;	
+   }
+ #mobile{
+   	margin-left:10px;
+   	width: 40%;	
+   }
+ #email{
+   	margin-left:30px;	
+   	width: 40%;	
+   }
+ #query{
+   	margin-left:45px;
+   	width: 40%;
+   	height: 60px;	
+   }
+   .form{
+   	margin-left: 600px;
+   	margin-top: -300px;
+   }
+   #btn{
+   	margin-left:200px;
+   	color: black;
+   	background: #b80007;
+   }
+   #box3>p{
+   	color: white;
+   	width:40%; 
+   }
